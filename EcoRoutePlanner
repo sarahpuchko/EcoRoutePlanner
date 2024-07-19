@@ -1,0 +1,32 @@
+EcoRoutePlanner/
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   ├── feature_request.md
+│   └── workflows/
+│       └── ci.yml
+├── backend/
+│   ├── Dockerfile
+│   ├── app.py
+│   ├── requirements.txt
+│   └── .dockerignore
+├── frontend/
+│   ├── Dockerfile
+│   ├── package.json
+│   ├── public/
+│   │   └── index.html
+│   └── src/
+│       ├── App.js
+│       ├── index.js
+│       └── App.css
+├── data/
+│   ├── README.md
+│   ├── sample_data.csv
+├── tests/
+│   ├── __init__.py
+│   ├── test_backend.py
+│   └── test_frontend.py
+├── .gitignore
+├── LICENSE
+├── README.md
+└── setup.py
